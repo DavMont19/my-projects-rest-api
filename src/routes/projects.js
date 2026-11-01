@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
 import { getDb } from '../data/db.js'
-import { createTask, listTasksByProject } from '../data/store.js'
+import { createTask, listTasksByProject } from '../data/tasks.repository.js'
 import {
   listProjects,
   createProject,
